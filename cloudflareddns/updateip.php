@@ -23,7 +23,9 @@ function tolog ($text) {
 }
 
 
-define('API_URL', 'https://www.cloudflare.com/api_json.html');
+define('API_URL', 'https://api.cloudflare.com/client/v4/
+
+');
 
 $cf_email = getenv('CF_EMAIL');
 $cf_api = getenv('CF_API');
