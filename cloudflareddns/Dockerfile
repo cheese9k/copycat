@@ -1,7 +1,8 @@
-# Builds a docker image for CloudlFlare DYN-DNS
+# Builds a docker image for CloudlFlare DDNS
 FROM phusion/baseimage:0.9.18
-MAINTAINER Mace Capri <macecapri@gmail.com>
+MAINTAINER Tom Eaton <tom@eaton.network>
 # Based on the work of Marcus Hughes <hello@msh100.uk>
+# Updated in 2019 to use the new CloudFlare URL's.
 
 #########################################
 ##        ENVIRONMENTAL CONFIG         ##
